@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment android:layout_width="match_parent"
+    android:id="@+id/activity_settings"
+    android:layout_height="wrap_content"
+    android:name="android.example.com.visualizerpreferences.PrefFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

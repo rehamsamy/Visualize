@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<CheckBoxPreference
+    android:key="@string/show_bass"
+    android:defaultValue="@bool/show_bass_default"
+    android:summaryOn="@string/Shown"
+    android:summaryOff="@string/Hidden"
+    android:title="Show Bass"
+    ></CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="@string/show_mid"
+        android:summaryOn="@string/Shown"
+        android:summaryOff="@string/Hidden"
+        android:defaultValue="@bool/show_mid_default"
+        android:title="Show Mid"></CheckBoxPreference>
+
+
+    <CheckBoxPreference
+        android:key="@string/show_triple"
+        android:summaryOn="@string/Shown"
+        android:summaryOff="@string/Hidden"
+        android:defaultValue="@bool/show_treple_default"
+        android:title="Show Treple"
+        ></CheckBoxPreference>
+
+
+    <EditTextPreference
+        android:title="Scale"
+        android:defaultValue="@string/scale_default_value"
+        android:key="@string/scale_key"
+        ></EditTextPreference>
+
+
+    <ListPreference
+        android:key="@string/pref_list_color"
+        android:defaultValue="@string/pref_color_blue_value"
+        android:entries="@array/pref_list_enteries_values"
+        android:entryValues="@array/pref_list_enteries_values"
+        android:title="select color"
+        >
+    </ListPreference>
+
+</PreferenceScreen>
